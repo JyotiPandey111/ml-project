@@ -43,8 +43,8 @@ Deployment
         ```
 4. Create a 'README.md' file in 'ml project' folder
 5. Sync the GitHub and Local Repositories and push the code to GitHub Repo
-   5.1 git init in the activated environmnet
-   5.2 Check Git Configuration if not configured then configure it.
+    5.1 git init in the activated environmnet
+    5.2 Check Git Configuration if not configured then configure it.
        ```python
        git config --global user.name "<Name>"
        git config --global user.email <email with GitHub Account>
@@ -54,7 +54,7 @@ Deployment
             git config --global user.name 
             git config --global user.email
             ```
-   5.3 Set Remote Repositories
+    5.3 Set Remote Repositories
        ```python
        git branch -M main
        git remote add origin <url>
@@ -63,7 +63,7 @@ Deployment
        ```python
        git remote -v
        ```
-   5.4 Push README.md to GitHub
+    5.4 Push README.md to GitHub
        ```python
        git status
        git add README.md
