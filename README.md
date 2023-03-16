@@ -104,5 +104,106 @@ Deployment
    
 
 
+# AGENDA: TUTORIAL 2 - End To End ML Project With Deployment
+1. Project Structure
+2. Logging
+3. Exception Handling
+
+
+Follow me for upcoming posts on:
+LinkedIn: https://lnkd.in/dfgMwFGT
+Code: https://lnkd.in/dG9YDXru
+
+
+Entire project implementation will be happening inside the Source Folder.
+1. Create the "component" folder inside the 'src' folder. Inside the "component" folder, create:
+1.1 '__init__.py'
+1.2 data_ingestion.py
+1.3 data_tranformation.py
+1.4 model_trainer.py
+Here, we can add "data_validation.py" and "model_evaluation.py"
+
+2. Create "pipeline" Folder inside "src" folder. Inside "pipeline" folder create:
+2.1 __init__.py
+2.2 train_pipeline.py
+2.3 predict_pipeline.py
+
+3. Create three important files inside "src" folder.
+3.1 logger.py
+3.2 exception.py: Create custom exception.
+3.3 utils.py
+
+4. Prepare the logging.py file to log the actions
+
+5. utils.py file will be prepared in next part PART 3
+
+6. Commit the changes in GitHub
+
+Files in "ml project" folders:
+1. mlproject.egg-info
+2. src
+3. venv
+4. .gitignore
+6. README.md
+7. requirements.txt
+8. setup.py
+
+
+
+# AGENDA: TUTORIAL 3 - End To End ML Project With Deployment
+1. Project Structure
+2. Exploratory Data Analysis
+3. Model Training
+
+Upcoming Tutorial 4: Data Ingestion Implementation 
+
+
+Learned from : Krish Naik sir
+
+
+
+Steps followed in Tutorial 3:
+
+1. Create the "notebook" folder in "mlproject"
+Note: Make sure you are in the created environment "venv"
+
+
+
+2. Inside "notebook" folder create two .ipynb files:
+- EDA
+- MODEL TRAINING
+Note: Jupyter Notebook is the best for performing EDA. In upcoming tutorials modular programming will be performed for Model Training.
+
+
+3. Undersatnd the problem statement and collect the data accordingly. 
+Note: Here we have used the kaggle dataset for practicing. In real life, we need to collect data from scrapping or load data from databases like MongoDB.
+
+
+
+4. Performed Exploratory Data Analysis on dataset
+Note: Focus on the problem statement and accordingly perform the required checks on dataset in order to understand the data.
+- We need to install the ipykernal, this package provides the IPython kernel for Jupyter. 
+
+
+
+5. Performed Model Training
+Note: Use .pynb file for ease later tutorials we will convert the code into the modular coding.
+
+
+6. Make sure you have comment down the required libraries in the requirements.txt and install them in the created environment
+Note: comment the .e in requirement.txt as we will create our package in the last then un-comment .e
+
+
+7. Commit all the changes to the GitHub.
+
+
+ 
+
+
+
+ 
+
+
+
 
 
