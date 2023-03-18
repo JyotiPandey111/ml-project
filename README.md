@@ -6,7 +6,7 @@ Prerequisites:
 4. Deep Learning
 
 
-## Tutorials:
+# Tutorials:
 
 1. [GitHub and Environment setup](#agenda-tutorial-1)
 2. [Project Structure, logging and exception](#agenda-tutorial-2---end-to-end-ml-project-with-deployment)
@@ -28,7 +28,8 @@ Setup Project with Github
 CI/CD Pipelines - GitHub Actions
 Deployment
 
-# AGENDA: TUTORIAL 1
+# AGENDA: TUTORIAL 1                                      
+[back to top](#tutorials)
 
 1. Setup the GitHub {Repository}
       a) new environment
@@ -117,6 +118,7 @@ Deployment
 
 
 # AGENDA: TUTORIAL 2 - End To End ML Project With Deployment
+[back to top](#tutorials)
 1. Project Structure
 2. Logging
 3. Exception Handling
@@ -163,6 +165,7 @@ Files in "ml project" folders:
 
 
 # AGENDA: TUTORIAL 3 - End To End ML Project With Deployment
+[back to top](#tutorials)
 1. Project Structure
 2. Exploratory Data Analysis
 3. Model Training
@@ -211,20 +214,25 @@ Note: comment the .e in requirement.txt as we will create our package in the las
 
  
 # AGENDA: TUTORIAL 4 - End To End ML Project With Deployment 
+[back to top](#tutorials)
 - Data Ingestion Implementation
 
 
 # AGENDA: TUTORIAL 5 - End To End ML Project With Deployment 
+[back to top](#tutorials)
 - Data Tranformation Implementation
 
 
 # AGENDA: TUTORIAL 6 - End To End ML Project With Deployment 
+[back to top](#tutorials)
 - Model Training and Evaluation Component
 
 # AGENDA: TUTORIAL 7 - End To End ML Project With Deployment 
+[back to top](#tutorials)
 - Model Hyperparameter Tuning
 
 # AGENDA: TUTORIAL 8 - End To End ML Project With Deployment 
+[back to top](#tutorials)
 - Predictive Pipeleine using Flask Web app
 
 
