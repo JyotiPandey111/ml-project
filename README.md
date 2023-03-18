@@ -5,6 +5,16 @@ Prerequisites:
 3. Machine learning
 4. Deep Learning
 
+
+1. [GitHub and Environment setup](#agenda-tutorial-1)
+2. [Project Structure, logging and exception](#agenda-tutorial-2---end-to-end-ml-project-with-deployment)
+3. [Problem Statements, EDA and Modeling](#agenda-tutorial-3---end-to-end-ml-project-with-deployment)
+4. [Data Ingestion](#agenda-tutorial-4---end-to-end-ml-project-with-deployment)
+5. [Data Tranformation](#agenda-tutorial-5---end-to-end-ml-project-with-deployment)
+6. [Model Training and Evaluation Component](#agenda-tutorial-6---end-to-end-ml-project-with-deployment)
+7. [Model Hyperparameter Tuning](#agenda-tutorial-7---end-to-end-ml-project-with-deployment)
+8. [Predictive Pipeleine using Flask Web app](#agenda-tutorial-8---end-to-end-ml-project-with-deployment)
+
 ## **End to End ML Project**
 Setup Project with Github
 1. Data Ingestion
@@ -198,6 +208,22 @@ Note: comment the .e in requirement.txt as we will create our package in the las
 
 
  
+# AGENDA: TUTORIAL 4 - End To End ML Project With Deployment 
+- Data Ingestion Implementation
+
+
+# AGENDA: TUTORIAL 5 - End To End ML Project With Deployment 
+- Data Tranformation Implementation
+
+
+# AGENDA: TUTORIAL 6 - End To End ML Project With Deployment 
+- Model Training and Evaluation Component
+
+# AGENDA: TUTORIAL 7 - End To End ML Project With Deployment 
+- Model Hyperparameter Tuning
+
+# AGENDA: TUTORIAL 8 - End To End ML Project With Deployment 
+- Predictive Pipeleine using Flask Web app
 
 
 
