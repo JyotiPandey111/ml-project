@@ -216,11 +216,22 @@ Note: comment the .e in requirement.txt as we will create our package in the las
 # AGENDA: TUTORIAL 4 - End To End ML Project With Deployment 
 [back to top](#tutorials)
 - Data Ingestion Implementation
+Note: 
+1. Creating class DataIngestionConfig(data paths where the files are saved.) 
+2. Creating class DataIngestion (inheriting the class DataIngestionConfig and creating methods to initiate_data_ingestion)
+
 
 
 # AGENDA: TUTORIAL 5 - End To End ML Project With Deployment 
 [back to top](#tutorials)
-- Data Tranformation Implementation
+- Data Tranformation Implementation 
+1. In data_tranformation.py, 
+- creating a class DataTransformationConfig to set the path to save the pickel file and 
+- creating class DataTransformation to initiate the transformation by inheriting the DataTransformationConfig and functions get_data_transformer_object and initiate_data_transformation 
+2. In util.py, creating a function save_object to dump the file
+3. Combine data_tranformation.py with data_ingestion.py
+4. Add dill libbrary in requirements.txt and run pip install -r requirements.txt
+
 
 
 # AGENDA: TUTORIAL 6 - End To End ML Project With Deployment 

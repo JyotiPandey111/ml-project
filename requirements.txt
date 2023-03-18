@@ -5,6 +5,7 @@ matplotlib
 scikit-learn
 catboost
 xgboost
+dill
 #-e .   # comment this you donot need to create the package again and again while running  pip install req o txt
         # we'll build it at last so try to comment this down whenever you try to install the package
         # tehn un-comment
