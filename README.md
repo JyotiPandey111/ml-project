@@ -6,6 +6,8 @@ Prerequisites:
 4. Deep Learning
 
 
+## Tutorials:
+
 1. [GitHub and Environment setup](#agenda-tutorial-1)
 2. [Project Structure, logging and exception](#agenda-tutorial-2---end-to-end-ml-project-with-deployment)
 3. [Problem Statements, EDA and Modeling](#agenda-tutorial-3---end-to-end-ml-project-with-deployment)
