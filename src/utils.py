@@ -1,5 +1,3 @@
-# requirements for functonalities 
-
 import os
 import sys
 
@@ -11,6 +9,9 @@ from sklearn.metrics import r2_score
 from src.exception import CustomException
 
 def save_object(file_path, obj):
+    """
+    to dump the object to a file
+    """
     try:
         dir_path = os.path.dirname(file_path)
 
@@ -23,6 +24,9 @@ def save_object(file_path, obj):
         raise CustomException(e, sys)
     
 def evaluate_models(X_train, y_train,X_test,y_test,models):
+    """
+    to evaluate the models performance
+    """
     try:
         report = {}
 

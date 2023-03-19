@@ -237,6 +237,16 @@ Note:
 # AGENDA: TUTORIAL 6 - End To End ML Project With Deployment 
 [back to top](#tutorials)
 - Model Training and Evaluation Component
+- Preparing the "model_trainer.py"file
+   1. importing all the required modules and libraries
+   2. Creating ModelTrainerConfig class to set the path for saving the model file
+   3. Creating ModelTrainer class for model training
+      - inhering the path of the model file from the ModelTrainerConfig
+      - Create a class to initiate the training, evaluation of model, and saving the object in the model file using the save_object and evaluate_model functions from utils file
+      - returning the performance metrics of the best model with the name of the same.
+   4. Create the functions in utils file to to dump the object to a file and to evaluate the models performance.
+   5. import the model training file in ingestion file and run the data ingestion file
+- Commit the changes to the GitHub repository 
 
 # AGENDA: TUTORIAL 7 - End To End ML Project With Deployment 
 [back to top](#tutorials)
